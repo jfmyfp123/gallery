@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	// var n1=2;
+	// var n2=3;
+	// // var temp=n1;
+	// // n1=n2;
+	// // n2=temp;
+	// // console.log(n1);
+	// // console.log(n2);
+	// // 不用第三个变量
+	// n1=n1+n2;
+	// n2=n1-n2;
+	// n1=n1-n2;
+	// console.log(n1);
+	// console.log(n2);
+	// // 数据类型
+	// console.log(typeof n1);
+	// // 无穷大、小
+	// console.log(Number.MIN_VALUE);
+	// // var num=prompt('输入一个数字');
+	// // if (isNaN(num)) {
+	// // 	console.log('不是数字');
+	// // }else{
+	// // 	console.log("是数字");
+	// // }
+	// var message = 100;
+	// if (message) {
+	// 	alert(message+'word');
+	// }
+	// console.log("\"ABC\"");
+	// var score = 89;
+	// var num = score/10;
+	// if (num>8) {
+	// 	console.log('A');
+	// }else if (num>6) {
+	// 	console.log("及格");
+	// }else{
+	// 	console.log('不及格');
+	// }
+
+	// var date = new Date();
+	// var week = date.getDay();
+	// console.log(time);
+ //    switch (week) {
+ //    	case 0:
+ //    	console.log('星期日');
+ //    	break;
+ //    	case 1:
+ //    	console.log('星期一');
+ //    	break;
+ //    	case 2:
+ //    	console.log('星期二');
+ //    	break;
+ //    	case 3:
+ //    	console.log('星期三');
+ //    	break;
+ //    	case 4:
+ //    	console.log('星期四');
+ //    	break;
+ //    	case 5:
+ //    	console.log('星期五');
+ //    	break;
+ //    	case 6:
+ //    	console.log('星期六');
+ //    	break;
+ //    }
+
+       // var sum = 10000,lilv;
+       // for (var i = 1; i <= 5; i++) {
+       // 	    lilv = sum*3/1000;//利率
+       // 	    sum = sum + lilv;//本金
+       // }
+       // console.log(sum);
+       // 打印9*9乘法表
+      //  document.write("<table border='1px' cellspacing='0' cellpadding='0'>");
+      //  for (var i = 1; i <= 9; i++) {
+      //  	//外循环，控制行
+      //       document.write("<tr>");
+            
+      //       for(var j=1;j<=i;j++){
+      //       	// 内循环，控制列
+      //          document.write("<td>");
+      //          document.write(i + "*" + j + "=" + i*j);
+      //          document.write("</td>");
+      //       }
+      //       document.write('</tr>');
+
+     	//     }
+     	// document.write("</table>");
+
+     	// 打印正方形
+     	// document.write("<table border='0'>");
+     	// for(var i = 1;i<=6;i++){
+     	// 	for(var j=1;j<=6;j++){
+     	// 		document.write("\n" + "*"+"\n");
+     	// 	}
+     	// 	document.write('<br/>');
+
+     	// }
+
+     	// 兔子的个数:1 1 2 3 5 8 13 
+     	// var n1 = 1;//第一个月兔子数
+     	// var n2 = 1;//第二个月兔子数
+     	// var sum;
+     	// for(var i=3;i<=12;i++){
+      //       sum = n1+n2;
+      //       n1=n2;
+      //       n2=sum;
+     	// }
+     	// console.log(n2);
+     	//输入任意一个整数，求位数
+     	// var num=Number(prompt('输入一个数字'));
+     	// if(num){
+     	// var i=1;
+     	// while(num>=10){
+     	// 	num=parseInt(num/10);
+     	// 	i++;
+     	// }
+     	// console.log(i);
+     	
+     	// }else if(num===0){
+     	// 	console.log('1');
+     	// }else{
+     	// 	console.log('错误');
+     	// }
+     	var num = Number(prompt('输入一个数字'));
+     		if(num){
+     			do{
+     			var temp = num%10;
+     		    num =parseInt(num/10);//一定要转换成整数
+     		   console.log(temp);	
+     			}while(num!=0);
+     			
+     		
+     		}else if(num===0){
+     			console.log('0');
+     		}else{
+     			console.log('不是数字');
+     		}
+       
+
+</script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+/*body{
+	background: #dedfee;
+	
+    margin: 1em 10%;
+}
+h1{
+   color: #333;
+   background: transparent;
+}
+a{
+	color: #c60;
+	font-weight: bold;
+	background: transparent;
+	text-decoration: none;
+}
+ul{
+	padding: 0;
+}
+ul li{
+	list-style: none;
+	float: left;
+	padding: 1em;
+}
+#placeholder{
+    display: block;
+    clear: both;//将行内元素设置为块级元素，必须设置clear:both属性
+}*/
+body{
+	background-color: #eed;
+	font-size: 1em;
+	margin: 1em 10%;
+}
+ul{
+	padding: 0;
+}
+ul li{
+	list-style: none;
+	padding: 1em;
+	float: left;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+img{
+	display: block;
+	clear: both;
+
+}

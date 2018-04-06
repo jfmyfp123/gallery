@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js图片库改进版</title>
+	<link rel="stylesheet" type="text/css" href="css/css_min.css">
+</head>
+<body>
+    <h1>js图片库改进版</h1>
+    <ul id="imageGallery">
+    	<li>
+    		<a href="images/1.jpg" title="this is first picture">
+    			<img src="images/1.jpg">
+    		</a>
+    	</li>
+    	<li>
+    		<a href="images/2.jpg" title="this is second picture">
+    			<img src="images/2.jpg">
+    		</a>
+    	</li>
+    	<li>
+    		<a href="images/3.jpg" title="this is third picture">
+    			<img src="images/3.jpg">
+    		</a>
+    	</li>
+    	<li>
+    		<a href="images/4.jpg" title="this is fouth picture">
+    			<img src="images/4.jpg">
+    		</a>
+    	</li>
+    </ul>
+    <img src="images/placeholder.jpg" id="placeholder">
+    <p id="description">这是图片描述</p>
+    
+    <script type="text/javascript" src="showPic/showPic_min.js"></script>
+    <script type="text/javascript">
+    	// addLoadEvent(prepareGallery);
+    	window.onload = prepareGallery;
+    </script>
+    
+</body> 
+</html>
